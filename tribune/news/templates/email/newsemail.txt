@@ -1,0 +1,3 @@
+Hello {{name}}
+
+Welcome to The Tribune newsletter You will find the most exciting news

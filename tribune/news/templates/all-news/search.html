@@ -6,7 +6,7 @@
     {% if articles%}
       <h2>Found {{ articles|length }} of searched term {{message}}</h2>
     {% else %}
-      <h2> Found 0 articles for the search term {{message}}</h2>
+      <h2> Found 0 articles for the search term <span style="color:red">{{message}}</span></h2>
     {% endif %}
 
   </div>
