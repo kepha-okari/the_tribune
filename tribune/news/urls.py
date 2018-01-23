@@ -8,7 +8,10 @@ urlpatterns=[
     url(r'^$',views.news_today,name='newsToday'), #new root page
     url(r'^archives/\d{4}-\d{2}-\d{2}/$',views.past_days_news,name = 'pastNews'),
     url(r'^search/', views.search_results, name='search_results'),
-    url(r'^article/(\d+)',views.article,name= 'articles')
+    url(r'^article/(\d+)',views.article,name= 'articles'),
+    url(r'^new/article$', views.new_article, name='new-article')
+
+
 ]
 
 if settings.DEBUG:
